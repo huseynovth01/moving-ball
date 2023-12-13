@@ -17,6 +17,7 @@ body {
     border-top-left-radius: 43px;
 
     background-color: rgb(101, 98, 109);
+    position: relative;
 
     .ball{
       width:90px;
@@ -24,13 +25,17 @@ body {
       background-color: black;
       border-radius: 50%;
       transition: 3s ease-in-out;
+      position: absolute;
+      left: 0%;
     }
     .btns{
-      margin-top: 50px;
+      margin-top: 20%;
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 40px;
+      
+      
       .leftbtn{
         padding: 10px 30px;
         border-radius: 6px;
@@ -39,6 +44,7 @@ body {
         background-color: aliceblue;
         line-height: normal;
         cursor: pointer;
+        
 
         &:hover{
           background-color: black;
